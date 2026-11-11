@@ -1,0 +1,14 @@
+# For local CLI: link with project ref gyjkqbvvetxhvgisrvlc
+
+project_id = "gyjkqbvvetxhvgisrvlc"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
