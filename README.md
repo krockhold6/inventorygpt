@@ -32,6 +32,8 @@ Staff sign up for dealership **programs** (scheduled happenings). Organizers man
 
    Migration `supabase/migrations/20261111210000_sdt_programs_schema.sql` creates dealerships, profiles, memberships, programs, registrations, signup trigger, and RLS policies.
 
+   **No CLI access?** Paste and run `supabase/one_time_apply.sql` in the [Supabase SQL Editor](https://supabase.com/dashboard/project/gyjkqbvvetxhvgisrvlc/sql/new) (schema + sample seed). Or apply the migration then `supabase/seed.sql` separately.
+
 4. **Seed data (optional)**
 
    In the SQL editor, add dealerships and assign users via `dealership_memberships`. Set `profiles.is_platform_admin = true` for platform admins, or use `dealership_admin` membership roles.
