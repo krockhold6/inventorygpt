@@ -19,7 +19,8 @@ Staff sign up for dealership **programs** (scheduled happenings). Organizers man
    Copy `.env.example` to `.env.local` and set:
 
    - `VITE_SUPABASE_URL` — project URL from the Supabase dashboard
-   - `VITE_SUPABASE_ANON_KEY` — publishable (anon) key — not the service role secret
+   - `VITE_SUPABASE_PUBLISHABLE_KEY` — publishable key from the dashboard (not the service role secret)
+   - `VITE_SUPABASE_ANON_KEY` — optional legacy alias; the app accepts either name
 
 3. **Database**
 
