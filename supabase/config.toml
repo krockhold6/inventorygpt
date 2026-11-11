@@ -1,0 +1,7 @@
+# South Dayton Toyota — Delivery (gyjkqbvvetxhvgisrvlc)
+# Link locally: supabase link --project-ref gyjkqbvvetxhvgisrvlc
+
+project_id = "gyjkqbvvetxhvgisrvlc"
+
+[db]
+major_version = 15
